@@ -1,0 +1,641 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'express',
+1 verbose cli   'cheerio',
+1 verbose cli   'path',
+1 verbose cli   'handlebars' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json scrapingProj@1.0.0 No description
+6 warn package.json scrapingProj@1.0.0 No repository field.
+7 warn package.json scrapingProj@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'express', null ]
+10 verbose cache add name=undefined spec="express" args=["express",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'express',
+11 verbose parsed url   path: 'express',
+11 verbose parsed url   href: 'express' }
+12 verbose cache add [ 'cheerio', null ]
+13 verbose cache add name=undefined spec="cheerio" args=["cheerio",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'cheerio',
+14 verbose parsed url   path: 'cheerio',
+14 verbose parsed url   href: 'cheerio' }
+15 verbose cache add [ 'path', null ]
+16 verbose cache add name=undefined spec="path" args=["path",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'path',
+17 verbose parsed url   path: 'path',
+17 verbose parsed url   href: 'path' }
+18 verbose cache add [ 'handlebars', null ]
+19 verbose cache add name=undefined spec="handlebars" args=["handlebars",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'handlebars',
+20 verbose parsed url   path: 'handlebars',
+20 verbose parsed url   href: 'handlebars' }
+21 silly lockFile f3c62de4-express express
+22 verbose lock express /home/kholifah/.npm/f3c62de4-express.lock
+23 silly lockFile efb58830-cheerio cheerio
+24 verbose lock cheerio /home/kholifah/.npm/efb58830-cheerio.lock
+25 silly lockFile 3150ecd5-path path
+26 verbose lock path /home/kholifah/.npm/3150ecd5-path.lock
+27 silly lockFile 9566e355-handlebars handlebars
+28 verbose lock handlebars /home/kholifah/.npm/9566e355-handlebars.lock
+29 silly lockFile f3c62de4-express express
+30 silly lockFile f3c62de4-express express
+31 silly lockFile efb58830-cheerio cheerio
+32 silly lockFile efb58830-cheerio cheerio
+33 silly lockFile 3150ecd5-path path
+34 silly lockFile 3150ecd5-path path
+35 verbose addNamed [ 'express', '' ]
+36 verbose addNamed [ null, '*' ]
+37 silly lockFile 64a534c1-express express@
+38 verbose lock express@ /home/kholifah/.npm/64a534c1-express.lock
+39 verbose addNamed [ 'cheerio', '' ]
+40 verbose addNamed [ null, '*' ]
+41 silly lockFile 8cd5cc09-cheerio cheerio@
+42 verbose lock cheerio@ /home/kholifah/.npm/8cd5cc09-cheerio.lock
+43 verbose addNamed [ 'path', '' ]
+44 verbose addNamed [ null, '*' ]
+45 silly lockFile 9741fa74-path path@
+46 verbose lock path@ /home/kholifah/.npm/9741fa74-path.lock
+47 silly lockFile 9566e355-handlebars handlebars
+48 silly lockFile 9566e355-handlebars handlebars
+49 silly addNameRange { name: 'express', range: '*', hasData: false }
+50 silly addNameRange { name: 'cheerio', range: '*', hasData: false }
+51 verbose addNamed [ 'handlebars', '' ]
+52 verbose addNamed [ null, '*' ]
+53 silly lockFile 0ab5732f-handlebars handlebars@
+54 verbose lock handlebars@ /home/kholifah/.npm/0ab5732f-handlebars.lock
+55 silly addNameRange { name: 'path', range: '*', hasData: false }
+56 silly addNameRange { name: 'handlebars', range: '*', hasData: false }
+57 verbose request where is /cheerio
+58 verbose request registry https://registry.npmjs.org/
+59 verbose request id afe6629af434f386
+60 verbose url raw /cheerio
+61 verbose url resolving [ 'https://registry.npmjs.org/', './cheerio' ]
+62 verbose url resolved https://registry.npmjs.org/cheerio
+63 verbose request where is https://registry.npmjs.org/cheerio
+64 info trying registry request attempt 1 at 21:46:06
+65 http GET https://registry.npmjs.org/cheerio
+66 verbose request where is /express
+67 verbose request registry https://registry.npmjs.org/
+68 verbose url raw /express
+69 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+70 verbose url resolved https://registry.npmjs.org/express
+71 verbose request where is https://registry.npmjs.org/express
+72 info trying registry request attempt 1 at 21:46:06
+73 verbose etag "DVDL43KFD654FZ8CVMXYW17CV"
+74 http GET https://registry.npmjs.org/express
+75 verbose request where is /path
+76 verbose request registry https://registry.npmjs.org/
+77 verbose url raw /path
+78 verbose url resolving [ 'https://registry.npmjs.org/', './path' ]
+79 verbose url resolved https://registry.npmjs.org/path
+80 verbose request where is https://registry.npmjs.org/path
+81 info trying registry request attempt 1 at 21:46:06
+82 verbose etag "CZNSC4US7QY90OMALWKA1AACX"
+83 http GET https://registry.npmjs.org/path
+84 verbose request where is /handlebars
+85 verbose request registry https://registry.npmjs.org/
+86 verbose url raw /handlebars
+87 verbose url resolving [ 'https://registry.npmjs.org/', './handlebars' ]
+88 verbose url resolved https://registry.npmjs.org/handlebars
+89 verbose request where is https://registry.npmjs.org/handlebars
+90 info trying registry request attempt 1 at 21:46:06
+91 verbose etag "3KWLPXF352JD3IR4O4UC401QN"
+92 http GET https://registry.npmjs.org/handlebars
+93 http 200 https://registry.npmjs.org/express
+94 silly registry.get cb [ 200,
+94 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+94 silly registry.get     etag: '"BNVGL49D7M84EYX1SQOYLTUTK"',
+94 silly registry.get     'content-type': 'application/json',
+94 silly registry.get     'cache-control': 'max-age=300',
+94 silly registry.get     'content-length': '534792',
+94 silly registry.get     'accept-ranges': 'bytes',
+94 silly registry.get     date: 'Mon, 14 Mar 2016 14:46:06 GMT',
+94 silly registry.get     via: '1.1 varnish',
+94 silly registry.get     age: '173',
+94 silly registry.get     connection: 'keep-alive',
+94 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+94 silly registry.get     'x-cache': 'HIT',
+94 silly registry.get     'x-cache-hits': '2',
+94 silly registry.get     'x-timer': 'S1457966766.734892,VS0,VE0',
+94 silly registry.get     vary: 'Accept' } ]
+95 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+96 silly addNameRange versions [ 'express',
+96 silly addNameRange   [ '0.14.0',
+96 silly addNameRange     '0.14.1',
+96 silly addNameRange     '1.0.0',
+96 silly addNameRange     '1.0.1',
+96 silly addNameRange     '1.0.2',
+96 silly addNameRange     '1.0.3',
+96 silly addNameRange     '1.0.4',
+96 silly addNameRange     '1.0.5',
+96 silly addNameRange     '1.0.6',
+96 silly addNameRange     '1.0.7',
+96 silly addNameRange     '1.0.8',
+96 silly addNameRange     '2.0.0',
+96 silly addNameRange     '2.1.0',
+96 silly addNameRange     '2.1.1',
+96 silly addNameRange     '2.2.0',
+96 silly addNameRange     '2.2.1',
+96 silly addNameRange     '2.2.2',
+96 silly addNameRange     '2.3.0',
+96 silly addNameRange     '2.3.1',
+96 silly addNameRange     '2.3.2',
+96 silly addNameRange     '2.3.3',
+96 silly addNameRange     '2.3.4',
+96 silly addNameRange     '2.3.5',
+96 silly addNameRange     '2.3.6',
+96 silly addNameRange     '2.3.7',
+96 silly addNameRange     '2.3.8',
+96 silly addNameRange     '2.3.9',
+96 silly addNameRange     '2.3.10',
+96 silly addNameRange     '2.3.11',
+96 silly addNameRange     '2.3.12',
+96 silly addNameRange     '2.4.0',
+96 silly addNameRange     '2.4.1',
+96 silly addNameRange     '2.4.2',
+96 silly addNameRange     '2.4.3',
+96 silly addNameRange     '2.4.4',
+96 silly addNameRange     '2.4.5',
+96 silly addNameRange     '2.4.6',
+96 silly addNameRange     '2.4.7',
+96 silly addNameRange     '2.5.0',
+96 silly addNameRange     '2.5.1',
+96 silly addNameRange     '2.5.2',
+96 silly addNameRange     '2.5.3',
+96 silly addNameRange     '2.5.4',
+96 silly addNameRange     '2.5.5',
+96 silly addNameRange     '2.5.6',
+96 silly addNameRange     '2.5.7',
+96 silly addNameRange     '2.5.8',
+96 silly addNameRange     '2.5.9',
+96 silly addNameRange     '2.5.10',
+96 silly addNameRange     '2.5.11',
+96 silly addNameRange     '3.0.0',
+96 silly addNameRange     '3.0.1',
+96 silly addNameRange     '3.0.2',
+96 silly addNameRange     '3.0.3',
+96 silly addNameRange     '3.0.4',
+96 silly addNameRange     '3.0.5',
+96 silly addNameRange     '3.0.6',
+96 silly addNameRange     '3.1.0',
+96 silly addNameRange     '3.1.1',
+96 silly addNameRange     '3.1.2',
+96 silly addNameRange     '3.2.0',
+96 silly addNameRange     '3.2.1',
+96 silly addNameRange     '3.2.2',
+96 silly addNameRange     '3.2.3',
+96 silly addNameRange     '3.2.4',
+96 silly addNameRange     '3.2.5',
+96 silly addNameRange     '3.2.6',
+96 silly addNameRange     '3.3.0',
+96 silly addNameRange     '3.3.1',
+96 silly addNameRange     '3.3.2',
+96 silly addNameRange     '3.3.3',
+96 silly addNameRange     '3.3.4',
+96 silly addNameRange     '3.3.5',
+96 silly addNameRange     '3.3.6',
+96 silly addNameRange     '1.0.0-beta',
+96 silly addNameRange     '1.0.0-beta2',
+96 silly addNameRange     '1.0.0-rc',
+96 silly addNameRange     '1.0.0-rc2',
+96 silly addNameRange     '1.0.0-rc3',
+96 silly addNameRange     '1.0.0-rc4',
+96 silly addNameRange     '2.0.0-beta',
+96 silly addNameRange     '2.0.0-beta2',
+96 silly addNameRange     '2.0.0-beta3',
+96 silly addNameRange     '2.0.0-rc',
+96 silly addNameRange     '2.0.0-rc2',
+96 silly addNameRange     '2.0.0-rc3',
+96 silly addNameRange     '3.0.0-alpha1',
+96 silly addNameRange     '3.0.0-alpha2',
+96 silly addNameRange     '3.0.0-alpha3',
+96 silly addNameRange     '3.0.0-alpha4',
+96 silly addNameRange     '3.0.0-alpha5',
+96 silly addNameRange     '3.0.0-beta1',
+96 silly addNameRange     '3.0.0-beta2',
+96 silly addNameRange     '3.0.0-beta3',
+96 silly addNameRange     '3.0.0-beta4',
+96 silly addNameRange     '3.0.0-beta6',
+96 silly addNameRange     '3.0.0-beta7',
+96 silly addNameRange     '3.0.0-rc1',
+96 silly addNameRange     '3.0.0-rc2',
+96 silly addNameRange     '3.0.0-rc3',
+96 silly addNameRange     '3.0.0-rc4',
+96 silly addNameRange     '3.0.0-rc5',
+96 silly addNameRange     '3.3.7',
+96 silly addNameRange     '3.3.8',
+96 silly addNameRange     '3.4.0',
+96 silly addNameRange     '3.4.1',
+96 silly addNameRange     '3.4.2',
+96 silly addNameRange     '3.4.3',
+96 silly addNameRange     '3.4.4',
+96 silly addNameRange     '3.4.5',
+96 silly addNameRange     '3.4.6',
+96 silly addNameRange     '3.4.7',
+96 silly addNameRange     '3.4.8',
+96 silly addNameRange     '4.0.0-rc1',
+96 silly addNameRange     '4.0.0-rc2',
+96 silly addNameRange     '3.5.0',
+96 silly addNameRange     '4.0.0-rc3',
+96 silly addNameRange     '4.0.0-rc4',
+96 silly addNameRange     '3.5.1',
+96 silly addNameRange     '4.0.0',
+96 silly addNameRange     '3.5.2',
+96 silly addNameRange     '4.1.0',
+96 silly addNameRange     '4.1.1',
+96 silly addNameRange     '3.5.3',
+96 silly addNameRange     '4.1.2',
+96 silly addNameRange     '3.6.0',
+96 silly addNameRange     '4.2.0',
+96 silly addNameRange     '3.7.0',
+96 silly addNameRange     '3.8.0',
+96 silly addNameRange     '4.3.0',
+96 silly addNameRange     '4.3.1',
+96 silly addNameRange     '3.8.1',
+96 silly addNameRange     '4.3.2',
+96 silly addNameRange     '3.9.0',
+96 silly addNameRange     '4.4.0',
+96 silly addNameRange     '4.4.1',
+96 silly addNameRange     '3.10.0',
+96 silly addNameRange     '3.10.1',
+96 silly addNameRange     '3.10.2',
+96 silly addNameRange     '3.10.3',
+96 silly addNameRange     '3.10.4',
+96 silly addNameRange     '4.4.2',
+96 silly addNameRange     '3.10.5',
+96 silly addNameRange     '4.4.3',
+96 silly addNameRange     '3.11.0',
+96 silly addNameRange     '4.4.4',
+96 silly addNameRange     '3.12.0',
+96 silly addNameRange     '3.12.1',
+96 silly addNameRange     '4.4.5',
+96 silly addNameRange     '3.13.0',
+96 silly addNameRange     '4.5.0',
+96 silly addNameRange     '4.5.1',
+96 silly addNameRange     '3.14.0',
+96 silly addNameRange     '4.6.0',
+96 silly addNameRange     '4.6.1',
+96 silly addNameRange     '3.15.0',
+96 silly addNameRange     '4.7.0',
+96 silly addNameRange     '3.15.1',
+96 silly addNameRange     '4.7.1',
+96 silly addNameRange     '3.15.2',
+96 silly addNameRange     '4.7.2',
+96 silly addNameRange     '4.7.3',
+96 silly addNameRange     '3.15.3',
+96 silly addNameRange     '4.7.4',
+96 silly addNameRange     '3.16.0',
+96 silly addNameRange     '4.8.0',
+96 silly addNameRange     '3.16.1',
+96 silly addNameRange     '4.8.1',
+96 silly addNameRange     '3.16.2',
+96 silly addNameRange     '4.8.2',
+96 silly addNameRange     '3.16.3',
+96 silly addNameRange     '3.16.4',
+96 silly addNameRange     '4.8.3',
+96 silly addNameRange     '3.16.5',
+96 silly addNameRange     '3.16.6',
+96 silly addNameRange     '4.8.4',
+96 silly addNameRange     '3.16.7',
+96 silly addNameRange     '4.8.5',
+96 silly addNameRange     '3.16.8',
+96 silly addNameRange     '4.8.6',
+96 silly addNameRange     '3.16.9',
+96 silly addNameRange     '4.8.7',
+96 silly addNameRange     '3.16.10',
+96 silly addNameRange     '4.8.8',
+96 silly addNameRange     '3.17.0',
+96 silly addNameRange     '3.17.1',
+96 silly addNameRange     '4.9.0',
+96 silly addNameRange     '3.17.2',
+96 silly addNameRange     '4.9.1',
+96 silly addNameRange     '4.9.2',
+96 silly addNameRange     '3.17.3',
+96 silly addNameRange     '4.9.3',
+96 silly addNameRange     '3.17.4',
+96 silly addNameRange     '4.9.4',
+96 silly addNameRange     '3.17.5',
+96 silly addNameRange     '4.9.5',
+96 silly addNameRange     '3.17.6',
+96 silly addNameRange     '3.17.7',
+96 silly addNameRange     '4.9.6',
+96 silly addNameRange     '4.9.7',
+96 silly addNameRange     '3.17.8',
+96 silly addNameRange     '4.9.8',
+96 silly addNameRange     '3.18.0',
+96 silly addNameRange     '3.18.1',
+96 silly addNameRange     '4.10.0',
+96 silly addNameRange     '3.18.2',
+96 silly addNameRange     '4.10.1',
+96 silly addNameRange     '5.0.0-alpha.1',
+96 silly addNameRange     '3.18.3',
+96 silly addNameRange     '4.10.2',
+96 silly addNameRange     '3.18.4',
+96 silly addNameRange     '4.10.3',
+96 silly addNameRange     '4.10.4',
+96 silly addNameRange     '4.10.5',
+96 silly addNameRange     '3.18.5',
+96 silly addNameRange     '3.18.6',
+96 silly addNameRange     '4.10.6',
+96 silly addNameRange     '4.10.7',
+96 silly addNameRange     '3.19.0',
+96 silly addNameRange     '4.10.8',
+96 silly addNameRange     '4.11.0',
+96 silly addNameRange     '3.19.1',
+96 silly addNameRange     '4.11.1',
+96 silly addNameRange     '3.19.2',
+96 silly addNameRange     '4.11.2',
+96 silly addNameRange     '3.20.0',
+96 silly addNameRange     '4.12.0',
+96 silly addNameRange     '3.20.1',
+96 silly addNameRange     '4.12.1',
+96 silly addNameRange     '4.12.2',
+96 silly addNameRange     '3.20.2',
+96 silly addNameRange     '4.12.3',
+96 silly addNameRange     '3.20.3',
+96 silly addNameRange     '4.12.4',
+96 silly addNameRange     '3.21.0',
+96 silly addNameRange     '4.13.0',
+96 silly addNameRange     '3.21.1',
+96 silly addNameRange     '4.13.1',
+96 silly addNameRange     '5.0.0-alpha.2',
+96 silly addNameRange     '3.21.2',
+96 silly addNameRange     '4.13.2',
+96 silly addNameRange     '4.13.3',
+96 silly addNameRange     '4.13.4' ] ]
+97 verbose addNamed [ 'express', '4.13.4' ]
+98 verbose addNamed [ '4.13.4', '4.13.4' ]
+99 silly lockFile 23607823-express-4-13-4 express@4.13.4
+100 verbose lock express@4.13.4 /home/kholifah/.npm/23607823-express-4-13-4.lock
+101 silly lockFile 65e0249d-s-org-express-express-4-13-4-tgz https://registry.npmjs.org/express/-/express-4.13.4.tgz
+102 verbose lock https://registry.npmjs.org/express/-/express-4.13.4.tgz /home/kholifah/.npm/65e0249d-s-org-express-express-4-13-4-tgz.lock
+103 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.13.4.tgz',
+103 verbose addRemoteTarball   '3c0b76f3c77590c8345739061ec0bd3ba067ec24' ]
+104 info retry fetch attempt 1 at 21:46:07
+105 verbose fetch to= /tmp/user/1000/npm-18649-h3WFtDOL/registry.npmjs.org/express/-/express-4.13.4.tgz
+106 http GET https://registry.npmjs.org/express/-/express-4.13.4.tgz
+107 http 200 https://registry.npmjs.org/express/-/express-4.13.4.tgz
+108 silly lockFile 65e0249d-s-org-express-express-4-13-4-tgz https://registry.npmjs.org/express/-/express-4.13.4.tgz
+109 silly lockFile 65e0249d-s-org-express-express-4-13-4-tgz https://registry.npmjs.org/express/-/express-4.13.4.tgz
+110 silly lockFile 23607823-express-4-13-4 express@4.13.4
+111 silly lockFile 23607823-express-4-13-4 express@4.13.4
+112 silly lockFile 64a534c1-express express@
+113 silly lockFile 64a534c1-express express@
+114 http 200 https://registry.npmjs.org/path
+115 silly registry.get cb [ 200,
+115 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+115 silly registry.get     etag: '"7HDGXBUFK4XPJWEFEVREBFYKK"',
+115 silly registry.get     'content-type': 'application/json',
+115 silly registry.get     'cache-control': 'max-age=300',
+115 silly registry.get     'content-length': '5383',
+115 silly registry.get     'accept-ranges': 'bytes',
+115 silly registry.get     date: 'Mon, 14 Mar 2016 14:46:11 GMT',
+115 silly registry.get     via: '1.1 varnish',
+115 silly registry.get     age: '235',
+115 silly registry.get     connection: 'keep-alive',
+115 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+115 silly registry.get     'x-cache': 'HIT',
+115 silly registry.get     'x-cache-hits': '1',
+115 silly registry.get     'x-timer': 'S1457966771.719117,VS0,VE0',
+115 silly registry.get     vary: 'Accept' } ]
+116 silly addNameRange number 2 { name: 'path', range: '*', hasData: true }
+117 silly addNameRange versions [ 'path', [ '0.4.9', '0.4.10', '0.11.14', '0.12.7' ] ]
+118 verbose addNamed [ 'path', '0.12.7' ]
+119 verbose addNamed [ '0.12.7', '0.12.7' ]
+120 silly lockFile 423c0001-path-0-12-7 path@0.12.7
+121 verbose lock path@0.12.7 /home/kholifah/.npm/423c0001-path-0-12-7.lock
+122 silly lockFile d1fc4304-y-npmjs-org-path-path-0-12-7-tgz https://registry.npmjs.org/path/-/path-0.12.7.tgz
+123 verbose lock https://registry.npmjs.org/path/-/path-0.12.7.tgz /home/kholifah/.npm/d1fc4304-y-npmjs-org-path-path-0-12-7-tgz.lock
+124 verbose addRemoteTarball [ 'https://registry.npmjs.org/path/-/path-0.12.7.tgz',
+124 verbose addRemoteTarball   'd4dc2a506c4ce2197eb481ebfcd5b36c0140b10f' ]
+125 http 200 https://registry.npmjs.org/cheerio
+126 silly registry.get cb [ 200,
+126 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+126 silly registry.get     etag: '"E6ES8ANHSKLSAF8T00858D8UO"',
+126 silly registry.get     'content-type': 'application/json',
+126 silly registry.get     'cache-control': 'max-age=300',
+126 silly registry.get     'content-length': '97460',
+126 silly registry.get     'accept-ranges': 'bytes',
+126 silly registry.get     date: 'Mon, 14 Mar 2016 14:46:11 GMT',
+126 silly registry.get     via: '1.1 varnish',
+126 silly registry.get     age: '226',
+126 silly registry.get     connection: 'keep-alive',
+126 silly registry.get     'x-served-by': 'cache-sin6926-SIN',
+126 silly registry.get     'x-cache': 'HIT',
+126 silly registry.get     'x-cache-hits': '39',
+126 silly registry.get     'x-timer': 'S1457966771.615459,VS0,VE0',
+126 silly registry.get     vary: 'Accept' } ]
+127 info retry fetch attempt 1 at 21:46:11
+128 verbose fetch to= /tmp/user/1000/npm-18649-h3WFtDOL/registry.npmjs.org/path/-/path-0.12.7.tgz
+129 http GET https://registry.npmjs.org/path/-/path-0.12.7.tgz
+130 silly addNameRange number 2 { name: 'cheerio', range: '*', hasData: true }
+131 silly addNameRange versions [ 'cheerio',
+131 silly addNameRange   [ '0.0.1',
+131 silly addNameRange     '0.0.2',
+131 silly addNameRange     '0.0.3',
+131 silly addNameRange     '0.0.4',
+131 silly addNameRange     '0.1.1',
+131 silly addNameRange     '0.1.2',
+131 silly addNameRange     '0.1.3',
+131 silly addNameRange     '0.1.4',
+131 silly addNameRange     '0.1.5',
+131 silly addNameRange     '0.2.0',
+131 silly addNameRange     '0.2.1',
+131 silly addNameRange     '0.2.2',
+131 silly addNameRange     '0.3.0',
+131 silly addNameRange     '0.3.1',
+131 silly addNameRange     '0.3.2',
+131 silly addNameRange     '0.4.0',
+131 silly addNameRange     '0.4.1',
+131 silly addNameRange     '0.4.2',
+131 silly addNameRange     '0.5.0',
+131 silly addNameRange     '0.5.1',
+131 silly addNameRange     '0.5.2',
+131 silly addNameRange     '0.6.0',
+131 silly addNameRange     '0.6.1',
+131 silly addNameRange     '0.6.2',
+131 silly addNameRange     '0.7.0',
+131 silly addNameRange     '0.8.0',
+131 silly addNameRange     '0.8.1',
+131 silly addNameRange     '0.8.2',
+131 silly addNameRange     '0.8.3',
+131 silly addNameRange     '0.9.0',
+131 silly addNameRange     '0.9.1',
+131 silly addNameRange     '0.9.2',
+131 silly addNameRange     '0.10.0',
+131 silly addNameRange     '0.10.1',
+131 silly addNameRange     '0.10.2',
+131 silly addNameRange     '0.10.3',
+131 silly addNameRange     '0.10.4',
+131 silly addNameRange     '0.10.5',
+131 silly addNameRange     '0.10.6',
+131 silly addNameRange     '0.10.7',
+131 silly addNameRange     '0.10.8',
+131 silly addNameRange     '0.11.0',
+131 silly addNameRange     '0.12.0',
+131 silly addNameRange     '0.12.1',
+131 silly addNameRange     '0.12.2',
+131 silly addNameRange     '0.12.3',
+131 silly addNameRange     '0.12.4',
+131 silly addNameRange     '0.13.0',
+131 silly addNameRange     '0.13.1',
+131 silly addNameRange     '0.14.0',
+131 silly addNameRange     '0.15.0',
+131 silly addNameRange     '0.16.0',
+131 silly addNameRange     '0.17.0',
+131 silly addNameRange     '0.18.0',
+131 silly addNameRange     '0.19.0',
+131 silly addNameRange     '0.20.0' ] ]
+132 verbose addNamed [ 'cheerio', '0.20.0' ]
+133 verbose addNamed [ '0.20.0', '0.20.0' ]
+134 silly lockFile 1e6ee4cf-cheerio-0-20-0 cheerio@0.20.0
+135 verbose lock cheerio@0.20.0 /home/kholifah/.npm/1e6ee4cf-cheerio-0-20-0.lock
+136 silly lockFile a6c24ae8-s-org-cheerio-cheerio-0-20-0-tgz https://registry.npmjs.org/cheerio/-/cheerio-0.20.0.tgz
+137 verbose lock https://registry.npmjs.org/cheerio/-/cheerio-0.20.0.tgz /home/kholifah/.npm/a6c24ae8-s-org-cheerio-cheerio-0-20-0-tgz.lock
+138 verbose addRemoteTarball [ 'https://registry.npmjs.org/cheerio/-/cheerio-0.20.0.tgz',
+138 verbose addRemoteTarball   '5c710f2bab95653272842ba01c6ea61b3545ec35' ]
+139 info retry fetch attempt 1 at 21:46:11
+140 verbose fetch to= /tmp/user/1000/npm-18649-h3WFtDOL/registry.npmjs.org/cheerio/-/cheerio-0.20.0.tgz
+141 http GET https://registry.npmjs.org/cheerio/-/cheerio-0.20.0.tgz
+142 http 200 https://registry.npmjs.org/path/-/path-0.12.7.tgz
+143 silly lockFile d1fc4304-y-npmjs-org-path-path-0-12-7-tgz https://registry.npmjs.org/path/-/path-0.12.7.tgz
+144 silly lockFile d1fc4304-y-npmjs-org-path-path-0-12-7-tgz https://registry.npmjs.org/path/-/path-0.12.7.tgz
+145 silly lockFile 423c0001-path-0-12-7 path@0.12.7
+146 silly lockFile 423c0001-path-0-12-7 path@0.12.7
+147 silly lockFile 9741fa74-path path@
+148 silly lockFile 9741fa74-path path@
+149 http 200 https://registry.npmjs.org/cheerio/-/cheerio-0.20.0.tgz
+150 silly lockFile a6c24ae8-s-org-cheerio-cheerio-0-20-0-tgz https://registry.npmjs.org/cheerio/-/cheerio-0.20.0.tgz
+151 silly lockFile a6c24ae8-s-org-cheerio-cheerio-0-20-0-tgz https://registry.npmjs.org/cheerio/-/cheerio-0.20.0.tgz
+152 silly lockFile 1e6ee4cf-cheerio-0-20-0 cheerio@0.20.0
+153 silly lockFile 1e6ee4cf-cheerio-0-20-0 cheerio@0.20.0
+154 silly lockFile 8cd5cc09-cheerio cheerio@
+155 silly lockFile 8cd5cc09-cheerio cheerio@
+156 http 200 https://registry.npmjs.org/handlebars
+157 silly registry.get cb [ 200,
+157 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+157 silly registry.get     etag: '"9VSI52W6N32DJY4R8JIIMIZ0M"',
+157 silly registry.get     'content-type': 'application/json',
+157 silly registry.get     'cache-control': 'max-age=300',
+157 silly registry.get     'content-length': '61634',
+157 silly registry.get     'accept-ranges': 'bytes',
+157 silly registry.get     date: 'Mon, 14 Mar 2016 14:46:12 GMT',
+157 silly registry.get     via: '1.1 varnish',
+157 silly registry.get     age: '0',
+157 silly registry.get     connection: 'keep-alive',
+157 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+157 silly registry.get     'x-cache': 'HIT',
+157 silly registry.get     'x-cache-hits': '1',
+157 silly registry.get     'x-timer': 'S1457966771.742968,VS0,VE1014',
+157 silly registry.get     vary: 'Accept' } ]
+158 silly addNameRange number 2 { name: 'handlebars', range: '*', hasData: true }
+159 silly addNameRange versions [ 'handlebars',
+159 silly addNameRange   [ '1.0.6',
+159 silly addNameRange     '1.0.6-2',
+159 silly addNameRange     '1.0.7',
+159 silly addNameRange     '1.0.8',
+159 silly addNameRange     '1.0.9',
+159 silly addNameRange     '1.0.10',
+159 silly addNameRange     '1.0.11',
+159 silly addNameRange     '1.0.12',
+159 silly addNameRange     '1.1.0',
+159 silly addNameRange     '1.1.1',
+159 silly addNameRange     '1.1.2',
+159 silly addNameRange     '1.2.0',
+159 silly addNameRange     '1.2.1',
+159 silly addNameRange     '1.3.0',
+159 silly addNameRange     '2.0.0-alpha.1',
+159 silly addNameRange     '2.0.0-alpha.2',
+159 silly addNameRange     '2.0.0-alpha.3',
+159 silly addNameRange     '2.0.0-alpha.4',
+159 silly addNameRange     '2.0.0-beta.1',
+159 silly addNameRange     '2.0.0',
+159 silly addNameRange     '3.0.0',
+159 silly addNameRange     '3.0.1',
+159 silly addNameRange     '3.0.2',
+159 silly addNameRange     '3.0.3',
+159 silly addNameRange     '4.0.0',
+159 silly addNameRange     '4.0.1',
+159 silly addNameRange     '4.0.2',
+159 silly addNameRange     '4.0.3',
+159 silly addNameRange     '4.0.4',
+159 silly addNameRange     '4.0.5',
+159 silly addNameRange     '1.0.2-beta',
+159 silly addNameRange     '1.0.4-beta',
+159 silly addNameRange     '1.0.5-beta' ] ]
+160 verbose addNamed [ 'handlebars', '4.0.5' ]
+161 verbose addNamed [ '4.0.5', '4.0.5' ]
+162 silly lockFile 5f2df389-handlebars-4-0-5 handlebars@4.0.5
+163 verbose lock handlebars@4.0.5 /home/kholifah/.npm/5f2df389-handlebars-4-0-5.lock
+164 silly lockFile 008395e2--handlebars-handlebars-4-0-5-tgz https://registry.npmjs.org/handlebars/-/handlebars-4.0.5.tgz
+165 verbose lock https://registry.npmjs.org/handlebars/-/handlebars-4.0.5.tgz /home/kholifah/.npm/008395e2--handlebars-handlebars-4-0-5-tgz.lock
+166 verbose addRemoteTarball [ 'https://registry.npmjs.org/handlebars/-/handlebars-4.0.5.tgz',
+166 verbose addRemoteTarball   '92c6ed6bb164110c50d4d8d0fbddc70806c6f8e7' ]
+167 info retry fetch attempt 1 at 21:46:12
+168 verbose fetch to= /tmp/user/1000/npm-18649-h3WFtDOL/registry.npmjs.org/handlebars/-/handlebars-4.0.5.tgz
+169 http GET https://registry.npmjs.org/handlebars/-/handlebars-4.0.5.tgz
+170 http 200 https://registry.npmjs.org/handlebars/-/handlebars-4.0.5.tgz
+171 silly lockFile 008395e2--handlebars-handlebars-4-0-5-tgz https://registry.npmjs.org/handlebars/-/handlebars-4.0.5.tgz
+172 silly lockFile 008395e2--handlebars-handlebars-4-0-5-tgz https://registry.npmjs.org/handlebars/-/handlebars-4.0.5.tgz
+173 silly lockFile 5f2df389-handlebars-4-0-5 handlebars@4.0.5
+174 silly lockFile 5f2df389-handlebars-4-0-5 handlebars@4.0.5
+175 silly lockFile 0ab5732f-handlebars handlebars@
+176 silly lockFile 0ab5732f-handlebars handlebars@
+177 error Error: EACCES, mkdir '/home/kholifah/.npm/path/0.12.7'
+177 error  { [Error: EACCES, mkdir '/home/kholifah/.npm/path/0.12.7']
+177 error   errno: 3,
+177 error   code: 'EACCES',
+177 error   path: '/home/kholifah/.npm/path/0.12.7',
+177 error   parent: 'scrapingProj' }
+178 error Please try running this command again as root/Administrator.
+179 error System Linux 3.13.0-79-generic
+180 error command "/usr/bin/node" "/usr/bin/npm" "install" "--save" "express" "cheerio" "path" "handlebars"
+181 error cwd /home/kholifah/htdocs/scrapingProj
+182 error node -v v0.10.37
+183 error npm -v 1.4.28
+184 error path /home/kholifah/.npm/path/0.12.7
+185 error code EACCES
+186 error errno 3
+187 error stack Error: EACCES, mkdir '/home/kholifah/.npm/path/0.12.7'
+188 verbose exit [ 3, true ]
